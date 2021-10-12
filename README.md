@@ -3,8 +3,8 @@ Code base for nstdBoxes
 
 Architecture overview:
 The objective is to enable users to click on any part of a HTML document to edit it directly.
-To achieve this, a single html document is used as the container (index.html of nstdboxes.com) and within the body is a single <div> element which contains other <div> and <p> elements. (No other block elements are allowed in the current version).
-Each box is made of a <div> element which contains a single <p> element. A box may also be added inside an existing box, making it a nested box.
+To achieve this, a single html document is used as the container (index.html of nstdboxes.com) and within the body is a single div element which contains other div and p elements. (No other block elements are allowed in the current version).
+Each box is made of a div element which contains a single p element. A box may also be added inside an existing box, making it a nested box.
 The technical challenges are :
 (a)  to enable boxes to be created, moved, deleted, cloned and styled using all the posssible style options recognised by the browser. This is achieved using basic javascript and CSS.
 (b) to enable the nested box in the body to be saved to the an external storage (Cloud, browser storage) and to control view and edit access. This is done using Google Firebase Firestore services.
