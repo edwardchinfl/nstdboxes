@@ -15,7 +15,7 @@ when nstdboxes.com is launched, an empty Nested Box except for  the text "My New
 
 
 The main capabilities of nstdboxes.com are :
-~ to enable boxes to be created, moved, deleted, cloned and styled using all the posssible style options recognised by the browser. This is achieved using basic javascript and CSS.
+- to enable boxes to be created, moved, deleted, cloned and styled using all the posssible style options recognised by the browser. This is achieved using basic javascript and CSS.
 - to enable the nested box in the body to be saved to the an external storage (Cloud, browser storage) and to control view and edit access. This is done using Google Firebase Firestore services.
 - to authenticate users with minimal friction. This is done using Google Firebase authentication services.
   
