@@ -1,6 +1,6 @@
 // TODO: Replace the following with your app's Firebase project configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyAWDYFzzgcqmCaaYT4zUJ4M9y8dUdX4Px4",
+    apiKey: "Insert your Firebase API key here",
     authDomain: "nestedboxes-99ea8.firebaseapp.com",
     databaseURL: "https://nestedboxes-99ea8-default-rtdb.firebaseio.com",
     projectId: "nestedboxes-99ea8",
